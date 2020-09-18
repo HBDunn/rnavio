@@ -1,0 +1,38 @@
+{
+  "name": "issue-react-native-for-web",
+  "version": "1.0.0",
+  "description": "React Native for Web starter template",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "7.10.4",
+    "@babel/plugin-syntax-flow": "7.10.4",
+    "@babel/preset-env": "7.11.5",
+    "@babel/preset-flow": "7.10.4",
+    "@babel/preset-react": "7.10.4",
+    "@react-navigation/bottom-tabs": "5.8.0",
+    "@react-navigation/native": "5.7.3",
+    "@react-navigation/stack": "5.9.0",
+    "babel-loader": "8.1.0",
+    "css-loader": "4.3.0",
+    "html-webpack-plugin": "4.4.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "0.63.2",
+    "react-native-safe-area-context": "3.1.8",
+    "react-native-screens": "2.11.0",
+    "react-native-web": "0.13.3",
+    "react-scripts": "3.3.0",
+    "style-loader": "1.2.1",
+    "url-loader": "4.1.0",
+    "webpack": "4.44.2",
+    "webpack-dev-server": "3.11.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  }
+}
